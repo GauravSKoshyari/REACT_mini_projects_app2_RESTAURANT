@@ -20,6 +20,55 @@
 
 .app__award-lists {
     display: flex;
-    flex-direction: row-reverse;
     flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+.app__award-info .subheading p {
+    margin-bottom: 0;
+}
+
+.app__award-info h1 {
+    color: var(--color-golden);
+    font-size: 64px;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    margin: 2rem 0 2.5rem 0;
+}
+
+.award {
+    display: flex;
+    min-width: 230px;
+    flex: 1;
+    gap: 1rem;
+}
+
+.award__img img {
+    width: 50px;
+    height: 50px;
+
+}
+
+.award__info h2 {
+    color: var(--color-golden);
+    font-size: 23px;
+}
+
+@media screen and (max-width:1150px) {
+    .app__award {
+        flex-direction: column;
+    }
+
+    .award__info h2 {
+        font-size: 21px;
+    }
+
+    .award__info p {
+        font-size: 14px;
+    }
+
+
+
+
 }

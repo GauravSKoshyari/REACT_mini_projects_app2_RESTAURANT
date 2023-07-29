@@ -8,7 +8,7 @@ const Award = () => {
         <div className='app__award section__padding'>
             <div className="app__award-info">
                 <Subheading text="Awards & Recognition" />
-                <h1>Our Laurels</h1>
+                <h1 className='font__cormorant'>Our Laurels</h1>
                 <div className="app__award-lists">
                     {data.awards.map((award) => (
                         <div className="award">
@@ -16,8 +16,8 @@ const Award = () => {
                                 <img src={award.imgUrl} alt="award immage" />
                             </div>
                             <div className="award__info">
-                                <h2>{award.title}</h2>
-                                <p>{award.subtitle}</p>
+                                <h2 className='font__cormorant'>{award.title}</h2>
+                                <p className='font__opensans'>{award.subtitle}</p>
                             </div>
 
                         </div>
@@ -33,8 +33,3 @@ const Award = () => {
 
 export default Award
 
-// {
-//     imgUrl: images.award02,
-//     title: 'Bib Gourmond',
-//     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-//   },
