@@ -1,0 +1,137 @@
+.menu {
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu>h1.font__cormorant {
+    margin-top: 2rem;
+    font-size: 64px;
+    color: var(--color-golden);
+}
+
+.menu .subheading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu .subheading p {
+    font-weight: 700;
+}
+
+.menu__table {
+    margin-top: 4rem;
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+}
+
+.menu__table-wines,
+.menu__table-cocktails {
+    flex: 1;
+}
+
+.menu__image {
+    width: 410px;
+    margin: auto;
+}
+
+.menu__table-wines h1,
+.menu__table-cocktails h1 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 58.5px;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+
+.wines,
+.cocktails {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.row {
+    width: 100%;
+}
+
+.row__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+
+}
+
+.row__info p:first-child {
+    flex: 1;
+}
+
+.row__info p {
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 29.9px;
+    font-size: 23px;
+    color: var(--color-golden)
+}
+
+.row__info p:last-child {
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 29.9px;
+    font-size: 23px;
+    color: #fff;
+}
+
+.row__info div {
+    width: 90px;
+    height: 1px;
+    background: var(--color-golden);
+    margin-right: 1rem;
+}
+
+.row__tags p {
+    color: var(--color-grey)
+}
+
+
+.menu__image img {
+    width: 100%;
+}
+
+@media screen and (max-width:1150px) {
+
+    .menu__table {
+        gap: 2rem;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:650px) {
+
+    .menu .subheading p {
+        font-size: 21px;
+    }
+
+    .menu__table-wines h1,
+    .menu__table-cocktails h1 {
+        font-size: 35px;
+    }
+
+    .row__tags p {
+        font-size: 14px;
+    }
+
+    .row__info p {
+        font-size: 21px;
+    }
+
+
+}

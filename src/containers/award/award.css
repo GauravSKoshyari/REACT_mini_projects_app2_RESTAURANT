@@ -1,0 +1,25 @@
+.app__award {
+    background: url("../../assets/bg.png");
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__award-info {
+    flex: 1;
+}
+
+.app__award-img {
+    flex: 1;
+}
+
+.app__award-img img {
+    width: 100%;
+}
+
+.app__award-lists {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}

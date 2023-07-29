@@ -1,0 +1,13 @@
+.subheading p {
+    font-size: 23px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+
+}
+
+@media screen and (max-width:650px) {
+    .subheading p {
+        font-size: 21px;
+    }
+}

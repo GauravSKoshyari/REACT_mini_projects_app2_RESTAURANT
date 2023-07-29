@@ -1,0 +1,55 @@
+.chef {
+    background: url("../../assets/bg.png");
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+}
+
+.chef__img img {
+    width: 100%;
+}
+
+.chef__info h1 {
+    color: var(--color-golden);
+    font-size: 64px;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    margin: 1rem 0rem 4rem 0rem;
+}
+
+.quote {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.quote img {
+    width: 47px;
+    height: 40px;
+    margin-right: 1rem;
+}
+
+.chef__nameAndDesig p:first-child {
+    color: var(--color-golden);
+    margin-bottom: 8px;
+}
+
+.chef__sign img {
+    width: 250px;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width:1150px) {
+    .chef {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .chef__info .subheading p {
+        font-size: 21px;
+    }
+
+    .chef__info p {
+        font-size: 14px;
+    }
+}

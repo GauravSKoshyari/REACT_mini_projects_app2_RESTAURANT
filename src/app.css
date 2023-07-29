@@ -1,0 +1,54 @@
+.section__padding {
+    padding: 4rem 6rem;
+}
+
+body {
+    color: #FFFFFF;
+}
+
+.font__opensans {
+    font-family: var(--font-alt);
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 28px;
+}
+
+.font__cormorant {
+    font-family: var(--font-base);
+}
+
+
+.custom-button {
+    background-color: var(--color-crimson);
+    color: var(--color-black);
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width:850px) {
+    .section__padding {
+        padding: 4rem;
+    }
+
+    .font__opensans {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .section__padding {
+        padding: 4rem 2rem;
+    }
+}
