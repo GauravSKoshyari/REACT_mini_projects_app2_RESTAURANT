@@ -25,9 +25,6 @@
 }
 
 
-.app__award-info .subheading p {
-    margin-bottom: 0;
-}
 
 .app__award-info h1 {
     color: var(--color-golden);

@@ -4,8 +4,8 @@ import { images } from '../../constants'
 
 const Subheading = ({ text }) => {
     return (
-        <div className='subheading font__cormorant'>
-            <p>{text}</p>
+        <div className='subheading '>
+            <p className='font__cormorant'>{text}</p>
             <img src={images.spoon} alt="spoon" />
         </div>
     )

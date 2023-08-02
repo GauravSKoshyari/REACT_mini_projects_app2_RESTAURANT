@@ -16,6 +16,8 @@ body {
 
 .font__cormorant {
     font-family: var(--font-base);
+    font-size: 64px;
+    color: var(--color-golden);
 }
 
 
@@ -42,13 +44,15 @@ body {
         padding: 4rem;
     }
 
-    .font__opensans {
-        font-size: 14px;
-    }
+
 }
 
 @media screen and (max-width:650px) {
     .section__padding {
         padding: 4rem 2rem;
+    }
+
+    .font__opensans {
+        font-size: 14px;
     }
 }
