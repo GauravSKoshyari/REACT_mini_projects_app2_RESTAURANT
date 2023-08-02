@@ -5,7 +5,7 @@ import { Subheading } from '../../components'
 
 const Contact = () => {
     return (
-        <div className='app__contact section__padding'>
+        <div className='app__contact section__padding' id="contact">
             <div className="app__contact-info">
                 <Subheading text="Contact" />
                 <h1 className="font__cormorant">Find Us</h1>

@@ -5,7 +5,7 @@ import { Subheading } from '../../components'
 
 const Award = () => {
     return (
-        <div className='app__award section__padding'>
+        <div className='app__award section__padding' id='awards'>
             <div className="app__award-info">
                 <Subheading text="Awards & Recognition" />
                 <h1 className='font__cormorant'>Our Laurels</h1>

@@ -2,7 +2,11 @@
     font-size: 23px;
     font-weight: 700;
     letter-spacing: 0.04em;
+    font-family: var(--font-base);
+}
 
+.subheading img {
+    width: 45px;
 }
 
 @media screen and (max-width:650px) {

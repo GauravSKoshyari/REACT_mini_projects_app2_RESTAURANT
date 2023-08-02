@@ -28,10 +28,18 @@ const Gallery = () => {
             </div>
             <div className="app__gallery-imgSlider_cover" >
                 <div className="app__gallery-imgSlider" ref={sliderRef}>
-                    <div className="imgSlider_img"><img src={images.gallery01} alt="image 1" /></div>
-                    <div className="imgSlider_img"><img src={images.gallery02} alt="image 2" /></div>
-                    <div className="imgSlider_img"><img src={images.gallery03} alt="image 3" /></div>
-                    <div className="imgSlider_img"><img src={images.gallery04} alt="image 4" /></div>
+                    {
+                        [images.gallery01, images.gallery02, images.gallery03, images.gallery04].map((img, index) => (
+                            <div className="imgSlider_img" key={index}>
+                                <img src={img} alt="image" />
+                                <div className="img__overlay">
+                                    <BsInstagram fontSize={32} />
+                                </div>
+                            </div>
+
+                        ))
+                    }
+
                 </div>
                 <div className="app__gallery-arrows">
                     <BsArrowLeftShort className="gallery__arrow-icon" onClick={() => scroll("left")} />
